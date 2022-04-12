@@ -7,7 +7,7 @@ title: Sky
 subtitle: ''
 description: ''
 keywords:
-author: John Doe
+author: skynesser
 language: en
 timezone: ''
 
@@ -43,15 +43,15 @@ render_drafts: false
 post_asset_folder: false
 relative_link: false
 future: true
-highlight:
-  enable: true
+highlight: 
+  enable: false
   line_number: true
   auto_detect: false
   tab_replace: ''
   wrap: true
   hljs: false
-prismjs:
-  enable: false
+prismjs: 
+  enable: true
   preprocess: true
   line_number: true
   tab_replace: ''
@@ -105,3 +105,11 @@ deploy:
   type: git
   repo: https://github.com/skynesser/skynesser.github.io.git
   branch: master
+
+mathjax:
+  tags: none # or 'ams' or 'all'
+  single_dollars: true # enable single dollar signs as in-line math delimiters
+  cjk_width: 0.9 # relative CJK char width
+  normal_width: 0.6 # relative normal (monospace) width
+  append_css: true # add CSS to pages rendered by MathJax
+  every_page: false # if true, every page will be rendered by MathJax regardless the `mathjax` setting in Front-matter
