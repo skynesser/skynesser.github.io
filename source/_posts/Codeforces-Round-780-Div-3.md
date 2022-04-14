@@ -10,7 +10,7 @@ mathjax: true
 
 ![请添加图片描述](https://img-blog.csdnimg.cn/2fdb6a23ad2546feb75af9fd0dbaf352.png?x-oss-process=image/watermark,type_d3F5LXplbmhlaQ,shadow_50,text_Q1NETiBAdGltZXJfY2F0Y2g=,size_20,color_FFFFFF,t_70,g_se,x_16)
 
-@[toc]
+
 
 ## A. Vasya and Coins
 **题意：**

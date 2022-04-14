@@ -9,7 +9,7 @@ mathjax: true
 ---
 
 ![请添加图片描述](https://img-blog.csdnimg.cn/10dbb89dba6041cbbd91a9c0776d5a27.png?x-oss-process=image/watermark,type_d3F5LXplbmhlaQ,shadow_50,text_Q1NETiBAdGltZXJfY2F0Y2g=,size_20,color_FFFFFF,t_70,g_se,x_16)
-@[toc]
+
 ## A. Marin and Photoshoot
 **题意：**
 >给定一个由0和1组成的序列，现在可以往这个序列中添加1，是的这个序列满足如下要求：

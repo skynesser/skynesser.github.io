@@ -10,7 +10,7 @@ mathjax: true
 
 ![请添加图片描述](https://img-blog.csdnimg.cn/575e994279a24ffb92a1ea7a71037e04.png?x-oss-process=image/watermark,type_d3F5LXplbmhlaQ,shadow_50,text_Q1NETiBAdGltZXJfY2F0Y2g=,size_20,color_FFFFFF,t_70,g_se,x_16)
 
-@[toc]
+
 ***
 ## A - Four Points
 **题意：**

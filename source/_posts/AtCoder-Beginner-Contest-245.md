@@ -9,7 +9,7 @@ mathjax: true
 ---
 ![请添加图片描述](https://img-blog.csdnimg.cn/be3f62f6376d4d898e9a15001524cbf7.png?x-oss-process=image/watermark,type_d3F5LXplbmhlaQ,shadow_50,text_Q1NETiBAdGltZXJfY2F0Y2g=,size_20,color_FFFFFF,t_70,g_se,x_16)
 
-@[toc]
+
 # A - Good morning
 **题意：**
 > 语法题：
