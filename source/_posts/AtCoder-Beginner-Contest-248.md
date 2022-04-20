@@ -3,15 +3,15 @@ title: AtCoder Beginner Contest 248
 mathjax: true
 date: 2022-04-17 14:36:25
 tags:
-- 题解
-categories:
 - Atcoder
+categories:
+- 题解
 ---
 
 # AtCoder Beginner Contest 248
->下载PDF，获得别样的观看体验
->
-><https://skynesserblog.oss-cn-hangzhou.aliyuncs.com/Atcoder/AtCoder%20Beginner%20Contest%20248/AtCoder%20Beginner%20Contest%20248/AtCoder-Beginner-Contest-248.pdf>
+>下载[PDF](https://skynesserblog.oss-cn-hangzhou.aliyuncs.com/Atcoder/AtCoder%20Beginner%20Contest%20248/AtCoder%20Beginner%20Contest%20248/AtCoder-Beginner-Contest-248.pdf)，获得别样的观看体验
+
+![](https://skynesserblog.oss-cn-hangzhou.aliyuncs.com/Atcoder/AtCoder%20Beginner%20Contest%20248/AtCoder%20Beginner%20Contest%20248/1650191469761.jpg.jpg)
 ## A - Lacked Number
 **题意：**
 >给出10个数字，输出0~9中未出现的那个数字。
@@ -483,8 +483,7 @@ int main()
     return 0;
 }
 ```
->此外，大家也可以看dls的视频讲解，在这里附上链接
-><https://www.bilibili.com/video/BV1v44y1G7qj>
+>此外，大家也可以看[dls的视频讲解](https://www.bilibili.com/video/BV1v44y1G7qj)，在这里附上链接
 <div style="position: relative; width: 100%; height: 0; padding-bottom: 75%;"><iframe 
 src="https://www.bilibili.com/video/BV1v44y1G7qj" scrolling="no" border="0" 
 frameborder="no" framespacing="0" allowfullscreen="true" style="position: absolute; width: 100%; 

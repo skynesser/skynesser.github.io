@@ -2,9 +2,9 @@
 title: AtCoder Beginner Contest 246
 date: 2022-04-12 17:34:16
 tags:
-- algorithm
-categories:
 - Atcoder 
+categories:
+- 题解
 mathjax: true
 ---
 

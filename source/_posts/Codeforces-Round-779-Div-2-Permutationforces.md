@@ -2,9 +2,9 @@
 title: Codeforces Round 779 (Div. 2)(Permutationforces)
 date: 2022-04-12 18:33:55
 tags:
-- algorithm
-categories:
 - Codeforces
+categories:
+- 题解
 mathjax: true
 ---
 

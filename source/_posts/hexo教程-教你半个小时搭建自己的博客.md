@@ -3,7 +3,8 @@ title: hexo教程--教你半个小时搭建自己的博客
 mathjax: true
 date: 2022-04-14 14:24:44
 tags:
-categories:
+categories: 
+- 教程
 ---
 ![](https://skynesserblog.oss-cn-hangzhou.aliyuncs.com/%E5%8D%9A%E5%AE%A2%E8%B5%84%E6%96%99/1650114432383.webp.webp)
 # 前言

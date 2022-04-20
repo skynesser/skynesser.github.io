@@ -2,9 +2,9 @@
 title: CodeTON Round 1 (Div. 1 + Div. 2, Rated, Prizes)
 date: 2022-04-12 18:33:21
 tags:
-- algorithm
-categories:
 - Codeforces
+categories:
+- 题解
 mathjax: true
 ---
 
