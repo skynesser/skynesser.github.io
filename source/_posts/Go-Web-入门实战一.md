@@ -29,10 +29,8 @@ $ godoc -http=:6060
 ```
 >执行完命令以后，在本地打开下面网址即可打开：
 http://localhost:6060/
-
 ![](https://skynesserblog.oss-cn-hangzhou.aliyuncs.com/Go/Go%20web/Go%20web%E5%85%A5%E9%97%A8%E5%AE%9E%E6%88%98%28%E4%B8%80%29/temp/AP1FQ%286K%29%29%5BE%28M%7B4LNB%7DKC8.png)
 此外，我们可以使用Ctrl+F来快速检索我们需要的信息。
-
 ![](https://skynesserblog.oss-cn-hangzhou.aliyuncs.com/Go/Go%20web/Go%20web%E5%85%A5%E9%97%A8%E5%AE%9E%E6%88%98%28%E4%B8%80%29/temp/4%7E_%7BY%29_QL%7D%40%7E%29M%24NOG%25%7BBI2.png)
 ***
 
@@ -47,7 +45,6 @@ http://localhost:6060/
 
 ## 项目的开始
 >在根目录下新建一个main.go文件，并写下如下代码:
-
 ![](https://skynesserblog.oss-cn-hangzhou.aliyuncs.com/Go/Go%20web/Go%20web%E5%85%A5%E9%97%A8%E5%AE%9E%E6%88%98%28%E4%B8%80%29/temp/JAFP1H91%7D15HF__Z0UNZ%7E%25X.png)
 ```go
 package main
@@ -67,9 +64,8 @@ func main() {
 }
 
 ```
->我们暂时不必深究代码，后面会慢慢解释。运行项目以后，我们可以打开下面的网址，看到如下页面：
+>我们暂时不必深究代码，后面会慢慢解释。运行项目以后，我们可以打开下面的网址，看到如下页面(无法访问则把上面监听的端口换成3000，访问的网址同理)：
 http://localhost:8080/
-
 ![](https://skynesserblog.oss-cn-hangzhou.aliyuncs.com/Go/Go%20web/Go%20web%E5%85%A5%E9%97%A8%E5%AE%9E%E6%88%98%28%E4%B8%80%29/temp/AJ%604_G%60_0W%28N01SJ3VD%7BFGM.png)
 ***
 ## 代码的解析
@@ -116,7 +112,6 @@ func main() {
 http://localhost:8080/ww
 http://localhost:8080/abc
 比如第一个网址，会出现如下结果：
-
 ![](https://skynesserblog.oss-cn-hangzhou.aliyuncs.com/Go/Go%20web/Go%20web%E5%85%A5%E9%97%A8%E5%AE%9E%E6%88%98%28%E4%B8%80%29/temp/%24J%5D%5BMUNCLRBQ58%5D0W%29WJSKM.png)
 
 >通过这种机制，我们可以根据访问页面网址的不同，设置出不同的访问结果：
@@ -151,10 +146,8 @@ func main() {
 
 ### 设置标头
 >因为我之前设置过的原因，我的页面显示是正常的，然而事实上大部分人可能会出现如下的情况：
-
 ![](https://skynesserblog.oss-cn-hangzhou.aliyuncs.com/Go/Go%20web/Go%20web%E5%85%A5%E9%97%A8%E5%AE%9E%E6%88%98%28%E4%B8%80%29/temp/7XW%60%40%29AT%60R%7BXF%281Y%7D6W%291%40W.png)
 >我们可以右键鼠标，检查页面：
-
 ![](https://skynesserblog.oss-cn-hangzhou.aliyuncs.com/Go/Go%20web/Go%20web%E5%85%A5%E9%97%A8%E5%AE%9E%E6%88%98%28%E4%B8%80%29/temp/%7EL%60%29K%5DHTW0K5MP_TP%29805HK.png)
 >我们发现这里显示的**plain**，而这是文本形式的内容，我们希望这里显示的是html形式的，修改代码如下即可：
 ```go
@@ -179,7 +172,6 @@ func main() {
 w.Header().Set("Content-type", "text/html; charset=utf-8")
 ```
 >其中这一行代码的作用就是设置标头，设置完后就可以解决问题了，同时我们可以查看此时内容形式变成html。
-
 ![](https://skynesserblog.oss-cn-hangzhou.aliyuncs.com/Go/Go%20web/Go%20web%E5%85%A5%E9%97%A8%E5%AE%9E%E6%88%98%28%E4%B8%80%29/temp/_Z_X7H%7D0J3C%7E%28R_S90BA4UA.png)
 
 ### 状态码
@@ -209,7 +201,6 @@ func main() {
 w.WriteHeader(http.StatusNotFound)
 ```
 >使用该函数即可简单的为页面添加404状态码。
-
 ![](https://skynesserblog.oss-cn-hangzhou.aliyuncs.com/Go/Go%20web/Go%20web%E5%85%A5%E9%97%A8%E5%AE%9E%E6%88%98%28%E4%B8%80%29/temp/KI%7EQ%60_%7D%24756%5D0VUWGU%7DF6PY.png)
 
 
